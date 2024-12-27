@@ -1,12 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 @media (max-width: 768px) {
-  /* Styles for tablets and smaller devices */
+    .home-content h1 {
+        font-size: 40px;
+    }
+    .navbar a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
 }
 
 @media (max-width: 480px) {
-  /* Styles for mobile phones */
+    .home-content h1 {
+        font-size: 32px;
+    }
+    .navbar a {
+        font-size: 14px;
+        margin-left: 15px;
+    }
 }
+
+@media (max-width: 768px) {
+    .btn-box {
+        width: 60px;
+        height: 45px;
+        font-size: 16px;
+    }
+}
+
 
 * {
     margin:0px;
@@ -17,6 +38,7 @@
 
 body {
     background-color: black;
+    color: #ededed;
 }
 
 .header {
@@ -143,8 +165,12 @@ p.homep{
 
 img{
     display: block;
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
     border-radius: 50%;
-    margin:100px
+    margin: 50px auto;
 }
+
+
 
