@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 @media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reduce font size for readability */
+    }
+    .about-section h1 {
+        font-size: 24px; /* Scale down large headers */
+    }
+
     .home-content h1 {
-        font-size: 40px;
+        font-size: 24px;
     }
     .navbar a {
-        font-size: 16px;
+        font-size: 14px;
         margin-left: 20px;
+    }
+    nav ul {
+        display: none; /* Hide regular menu */
+    }
+    .hamburger-menu {
+        display: block; /* Show hamburger icon */
     }
 }
 
