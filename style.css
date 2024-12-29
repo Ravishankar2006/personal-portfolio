@@ -68,14 +68,14 @@ body {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 2rem;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
 }
 
 .navbar a {
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
@@ -104,19 +104,19 @@ body {
 }
 
 .home-content h1{
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: 700;
     line-height: 1.2;
 }
 
 .home-content h3{
-    font-size: 32px;
+    font-size: 3rem;
     font-weight: 700;
     color: #F28500;
 }
 
 .home-content p{
-    font-size: 16px;
+    font-size: 1rem;
     margin: 20px 0 40px;
 }
 
@@ -149,7 +149,7 @@ a {
 }
 
 .abouth1{
-    padding-top: 100px ;
+    padding-top: 1rem ;
     color: #F28500;
 }
 
@@ -159,7 +159,7 @@ a {
 
 .list{
     padding-left: 100px;
-    font-size: 30px;
+    font-size: 2rem;
     margin: 20px 0 40px;
 }
 
@@ -172,7 +172,7 @@ a:hover{
 }
 
 p.homep{
-    font-size: 25px;
+    font-size: 1rem;
 }
 
 
